@@ -1,6 +1,6 @@
 {
   "name": "dothtml-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CLI for DOThtml.",
   "main": "src/index.js",
   "bin": {
@@ -31,9 +31,8 @@
     "express": "^4.17.1",
     "html-webpack-plugin": "^5.3.1",
     "opn": "^6.0.0",
-    "webpack": "^5.38.1"
-  },
-  "devDependencies": {
+    "webpack": "^5.38.1",
     "webpack-dev-middleware": "^5.0.0"
-  }
+  },
+  "devDependencies": {}
 }
