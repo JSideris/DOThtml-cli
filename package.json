@@ -1,0 +1,39 @@
+{
+  "name": "dothtml-cli",
+  "version": "0.1.0",
+  "description": "CLI for DOThtml.",
+  "main": "src/index.js",
+  "bin": {
+    "dothtml": "bin/dothtml"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSideris/DOThtml-cli.git"
+  },
+  "keywords": [
+    "dothtml",
+    "framework",
+    "web",
+    "cli"
+  ],
+  "author": "Joshua Sideris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSideris/DOThtml-cli/issues"
+  },
+  "homepage": "https://github.com/JSideris/DOThtml-cli#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.1",
+    "opn": "^6.0.0",
+    "webpack": "^5.38.1"
+  },
+  "devDependencies": {
+    "webpack-dev-middleware": "^5.0.0"
+  }
+}
